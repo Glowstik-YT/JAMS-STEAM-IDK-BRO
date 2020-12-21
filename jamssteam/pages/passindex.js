@@ -42,6 +42,9 @@ export function LoginNavbar() {
             <a href="/blog.html" className="nav">
                 <h3>Blog</h3>
             </a>
+            <a href="/beta/gallery" className="nav">
+                <h3>Gallery</h3>
+            </a>
             <a href="/contact" className="nav">
                 <h3>Contact</h3>
             </a>
@@ -65,8 +68,8 @@ export function LoginNavbar() {
         }
 
         .title {
-          margin-top: 0.5%;
-          font-size: 30px;
+          margin-top: 0.7%;
+          font-size: 25px;
           font-weight: bold;
           
         }
@@ -85,12 +88,12 @@ export function LoginNavbar() {
 
         }
         .space1 {
-          margin-left: 3%;
+          margin-left: 1%;
         }
 
 
         .space {
-          margin-left: 7%;
+          margin-left: 15%;
         }
 
         .nav {
@@ -98,10 +101,10 @@ export function LoginNavbar() {
           display: flex;
           font-family: "Poppins";
           flex-direction: center;
-          margin-left: 10%;
+          margin-left: 7%;
           text-decoration: none;
-          margin-top: -0.6%;
-          font-size: 20px;
+          margin-top: -0.2%;
+          font-size:  17px;
           color: #fff;
           transition: 0.7s;
           text-align: center;
@@ -118,7 +121,7 @@ export function LoginNavbar() {
             border: 1px solid #171717;
             width: 300%;
             font-size: 17px;
-            margin-top: 35%;
+            margin-top: 27%;
             color: white;
             font-family: 'poppins';
             background: #171717;
